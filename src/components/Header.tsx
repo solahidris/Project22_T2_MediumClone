@@ -6,9 +6,9 @@ const Header: React.FC = () => {
   return (
     <div className="pb-4 bg-[#ffc017]">
       {/* Components */}
-      <div className="header flex justify-between lg:mx-28 mx-2 text-sm pt-3">
+      <div className="header flex justify-between lg:mx-16 mx-6 text-sm pt-3">
         {/* Left Side Header */}
-        <img src={MediumLogo} alt="mediumlogo" className="w-48 h-auto" />
+        <img src={MediumLogo} alt="mediumlogo" className="w-[185px] h-auto mx-[-12px]" />
         {/* Right Side Header */}
         <div className="flex gap-8">
           {/* Hide on Mobile */}
